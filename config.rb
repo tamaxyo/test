@@ -25,6 +25,8 @@ set :images_dir, 'images'
 set :markdown_engine, :redcarpet
 set :markdown, :fenced_code_blocks => true, :autolink => true, :smartypants => true
 
+activate :syntax
+
 activate :deploy do |deploy|
   deploy.method = :git
   deploy.branch = 'master'
