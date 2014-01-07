@@ -1,0 +1,11 @@
+language: ruby
+
+script:
+  - bundle exec middleman deploy
+
+env:
+  global:
+    - GIT_COMMITER_NAME="tamaxyo"
+    - GIT_COMMITER_EMAIL="tamaxyo@gmail.com"
+    - GIT_AUTHOR_NAME="tamaxyo"
+    - GIT_AUTHOR_EMAIL="tamaxyo@gmail.com"

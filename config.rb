@@ -29,6 +29,6 @@ activate :syntax
 
 activate :deploy do |deploy|
   deploy.method = :git
-  deploy.branch = 'master'
+  deploy.branch = 'deploy_test'
   deploy.build_before = true
 end
