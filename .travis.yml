@@ -4,12 +4,12 @@ rvm: 2.0.0
 branches:
   only:
     - develop
-# before_script:
-#   - git clone --quiet https://github.com/tamaxyo/test.git build
+before_script:
+  - git clone --quiet https://github.com/tamaxyo/test.git build
 script:
   - bundle exec middleman build
 after_script:
-  - cd "$TRAVIS_BUILD_DIR"
+  - cd build
   - git add -A
   - git commit -m "Update"
   - '[ "$TRAVIS_BRANCH" == "develop" ] && [ $GH_TOKEN ] && git push --quiet https://$GH_TOKEN@github.com/tamaxyo/test.git master 2> /dev/null'
