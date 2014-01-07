@@ -14,7 +14,7 @@
     <link rel="alternate" href="http://blog.url.com/article/2014/01/06/setup-middleman-blog.html"/>
     <id>http://blog.url.com/article/2014/01/06/setup-middleman-blog.html</id>
     <published>2014-01-05T23:30:00Z</published>
-    <updated>2014-01-07T14:11:32+00:00</updated>
+    <updated>2014-01-07T15:01:00+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
@@ -42,7 +42,7 @@ config.rbに設定のテンプレートが配備されるので、コメント�
 &lt;p&gt;今回はGitHub Pagesのユーザサイトを構築しているので、masterブランチにpushするように設定。&lt;/p&gt;
 &lt;pre class="highlight ruby"&gt;&lt;span class="n"&gt;activate&lt;/span&gt; &lt;span class="ss"&gt;:deploy&lt;/span&gt; &lt;span class="k"&gt;do&lt;/span&gt; &lt;span class="o"&gt;|&lt;/span&gt;&lt;span class="n"&gt;deploy&lt;/span&gt;&lt;span class="o"&gt;|&lt;/span&gt;
   &lt;span class="n"&gt;deploy&lt;/span&gt;&lt;span class="nf"&gt;.method&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="ss"&gt;:git&lt;/span&gt;
-  &lt;span class="n"&gt;deploy&lt;/span&gt;&lt;span class="nf"&gt;.branch&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;'master'&lt;/span&gt; &lt;span class="c1"&gt;#=&amp;gt; ユーザページなのでmasterにpush&lt;/span&gt;
+  &lt;span class="n"&gt;deploy&lt;/span&gt;&lt;span class="nf"&gt;.branch&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="s1"&gt;&amp;#39;master&amp;#39;&lt;/span&gt; &lt;span class="c1"&gt;#=&amp;gt; ユーザページなのでmasterにpush&lt;/span&gt;
   &lt;span class="n"&gt;deploy&lt;/span&gt;&lt;span class="nf"&gt;.build_before&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="kp"&gt;true&lt;/span&gt; &lt;span class="c1"&gt;#=&amp;gt; deploy前にbuild実行&lt;/span&gt;
 &lt;span class="k"&gt;end&lt;/span&gt;
 &lt;/pre&gt;
@@ -67,7 +67,7 @@ config.rbに設定のテンプレートが配備されるので、コメント�
     <link rel="alternate" href="http://blog.url.com/article/2014/01/05/first-article.html"/>
     <id>http://blog.url.com/article/2014/01/05/first-article.html</id>
     <published>2014-01-04T15:00:00Z</published>
-    <updated>2014-01-07T14:11:32+00:00</updated>
+    <updated>2014-01-07T15:01:00+00:00</updated>
     <author>
       <name>Article Author</name>
     </author>
