@@ -10,6 +10,7 @@ script:
   - bundle exec middleman build
 after_script:
   - cd build
+  - cp .travis.yml .
   - git add -A
   - git commit -m "Update"
   - '[ "$TRAVIS_BRANCH" == "develop" ] && [ $GH_TOKEN ] && git push --quiet https://$GH_TOKEN@github.com/tamaxyo/test.git master 2> /dev/null'
