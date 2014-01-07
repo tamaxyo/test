@@ -9,3 +9,4 @@ env:
     - GIT_COMMITER_EMAIL="tamaxyo@gmail.com"
     - GIT_AUTHOR_NAME="tamaxyo"
     - GIT_AUTHOR_EMAIL="tamaxyo@gmail.com"
+    - secure: "N2ixevS0T5+KFO3hl22AMkiwuKhNwHzCt3jTUjbxwomKw2zsa/vpWH7o07MwRJd9dRF0UpVoD71CBc0000iHTVj2IuXb8wSD7umjlSqasGG1M8pqBXJ/zgnl5hSy+D89WqkvB0lQlvh0t9eeJ/dDZtU11RNdPVag5RVXR6KHoVE="
